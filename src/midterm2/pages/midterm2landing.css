@@ -1,0 +1,81 @@
+.midterm2-landing {
+  min-width: 200vh;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(116, 116, 116);
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.midterm2-landing main {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+.role-panel {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.admin { background: #6b0000; color: white; }
+.artist { background: #004586; color: white; }
+.listener { background: #008116; color: white; }
+
+.role-panel button {
+  margin: 5px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.role-panel button:hover {
+  opacity: 0.8;
+}
+.actions-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.actions-container button {
+  display: inline-block;
+  margin: 0;
+}
+
+.action-dropdown {
+  display: flex;
+  flex-direction: column;
+  background: #4e4e4e;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 150vh;
+  max-width: 100%;
+  margin-top: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.output-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.profile-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  min-width: 200px;
+  max-width: 250px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}

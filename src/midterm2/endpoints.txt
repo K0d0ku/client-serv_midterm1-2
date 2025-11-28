@@ -1,0 +1,34 @@
+these are from my 2nd midterm project for Web service application development subject:
+Github repo: https://github.com/K0d0ku/web-serv_midterm2
+Readme.md: https://github.com/K0d0ku/web-serv_midterm2/blob/main/README.md
+The_Process2.md: https://github.com/K0d0ku/web-serv_midterm2/blob/main/%23images_and_files_2/the_process2.md
+
+#auth
+# POST   http://localhost:8080/register         → Register a new user
+# POST   http://localhost:8080/login            → Login user
+
+#search
+# GET    http://localhost:8080/music/search?q=QUERY    → Search music by title, artist name, or genre
+
+# users
+# GET    http://localhost:8080/users            → List all users (Admin only)
+# GET    http://localhost:8080/users/:id        → Get user by ID (Admin only)
+# PUT    http://localhost:8080/users/:id        → Update user (Admin only)
+# DELETE http://localhost:8080/users/:id        → Delete user (Admin only)
+
+# music
+# GET    http://localhost:8080/music            → List all music (Admin/Artist/Listener)
+# GET    http://localhost:8080/music/:id        → Get music by ID (Admin/Artist/Listener)
+# GET    http://localhost:8080/music/artists           → List all artists (Admin/Artist/Listener)
+# GET    http://localhost:8080/music/artist-data/:id   → Get artist data by id (Admin/Artist/Listener)
+# GET    http://localhost:8080/music/artist/:artistId  → Get all music by a specific artist (Admin/Artist/Listener)
+# POST   http://localhost:8080/music            → Create new music (Artist/Admin)
+# PUT    http://localhost:8080/music/:id        → Update music (Artist/Admin, own music only)
+# DELETE http://localhost:8080/music/:id        → Delete music (Artist/Admin, own music only)
+
+# genres
+# GET    http://localhost:8080/genres           → List all genres (Admin/Artist/Listener)
+# GET    http://localhost:8080/genres/:id       → Get genre by ID (Admin/Artist/Listener)
+# POST   http://localhost:8080/genres           → Create a new genre (Admin only)
+# PUT    http://localhost:8080/genres/:id       → Update a genre (Admin only)
+# DELETE http://localhost:8080/genres/:id       → Delete a genre (Admin only)
