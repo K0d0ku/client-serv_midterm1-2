@@ -12,6 +12,7 @@
   - [Midterm 1](#midterm-1)
   - [Midterm 2](#midterm-2)
 - [Additional content](#additional-content)
+___
 
 ## Prologue  
 this repo is created to show what ive accomplished in my Uni subject Client Service Deveopment  
@@ -22,6 +23,7 @@ Here are the full links for my `Golang api project`:
 - [Readme.md](https://github.com/K0d0ku/web-serv_midterm2/blob/main/README.md)  
 - [The_Process2.md](https://github.com/K0d0ku/web-serv_midterm2/blob/main/%23images_and_files_2/the_process2.md)  
 and explanation of this project in [Process](#process) preferably [Midterm 2](#midterm-2) (`they are all mandatory to check`)  
+___
 
 ## Requirements
 Since both requirements we not so big of the projects themselves i did it all in 1 big project just separated them by pages and ui
@@ -40,6 +42,7 @@ The midterm 2 are the ones that are interesting, we had to connect api back end 
 
 [Midterm 2 Requirement 2](https://github.com/K0d0ku/client-serv_midterm1-2/blob/main/src/Requirements/midterm2/%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%E2%84%964.pdf)
 ![module_4_Requirement1.png](https://github.com/K0d0ku/client-serv_midterm1-2/blob/main/src/Requirements/midterm2/module_4_Requirement1.png)
+___
 
 
 ## Tools and packages
@@ -105,6 +108,7 @@ they can also be seen in [package.json](https://github.com/K0d0ku/client-serv_mi
   }
 }
 ```
+___
 
 ## Process
 This section documents how I implemented both midterms, highlights the main goals and architecture decisions, and explains how the front end (this repo) integrates with the Golang API.
@@ -541,6 +545,7 @@ These code excerpts are intentionally small and focused — they show how the fr
 - `SearchResults.jsx` / `SearchResultExpand.jsx` — handle search lifecycle, token validation, API calls, and conditional UI rendering for details and lists.
 
 These behaviors are implemented with plain `fetch()` calls and simple client-side checks (token presence and decoding). The README now documents how the token and role are used to control UI visibility and to make authenticated requests across pages.
+___
 
 ## Additional content
 
