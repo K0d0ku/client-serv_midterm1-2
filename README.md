@@ -23,6 +23,8 @@ Here are the full links for my `Golang api project`:
 - [Readme.md](https://github.com/K0d0ku/web-serv_midterm2/blob/main/README.md)  
 - [The_Process2.md](https://github.com/K0d0ku/web-serv_midterm2/blob/main/%23images_and_files_2/the_process2.md)  
 and explanation of this project in [Process](#process) preferably [Midterm 2](#midterm-2) (`they are all mandatory to check`)  
+
+##### I know i could do some more work with ui and make it prettier but for the time being i only focused in delivering a functioning front end, and for now its good enough
 ___
 
 ## Requirements
